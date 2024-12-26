@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "Review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review.review-title"
+    },
+    "img": {
+      "type": "component",
+      "repeatable": false,
+      "component": "review.review-img"
+    }
+  }
+}

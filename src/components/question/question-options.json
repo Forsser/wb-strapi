@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_question_question_options",
+  "info": {
+    "displayName": "question-options",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_hero_hero_titles",
+  "info": {
+    "displayName": "hero-title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Hero  Title"
+    },
+    "seoText": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "Subtitle"
+    }
+  }
+}

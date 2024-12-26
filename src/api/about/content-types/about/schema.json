@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Maint Title"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.about-card"
+    }
+  }
+}

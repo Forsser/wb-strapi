@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_review_review_imgs",
+  "info": {
+    "displayName": "review-img"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

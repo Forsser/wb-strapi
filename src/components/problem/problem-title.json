@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_problem_problem_titles",
+  "info": {
+    "displayName": "problem-title"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "secondTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

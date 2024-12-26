@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_problem_problem_cards",
+  "info": {
+    "displayName": "problem-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

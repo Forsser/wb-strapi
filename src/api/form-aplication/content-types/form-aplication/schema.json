@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_aplications",
+  "info": {
+    "singularName": "form-aplication",
+    "pluralName": "form-aplications",
+    "displayName": "FormAplication",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.question"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_specialization_specialization_cards",
+  "info": {
+    "displayName": "specialization-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "card title"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

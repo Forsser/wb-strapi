@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_header_contact_infos",
+  "info": {
+    "displayName": "contact-Info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string",
+      "default": "+380 000 000 000"
+    },
+    "email": {
+      "type": "string",
+      "default": "webstudio@gmail.com"
+    }
+  }
+}

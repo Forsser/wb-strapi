@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_example_example_cards",
+  "info": {
+    "displayName": "example-card"
+  },
+  "options": {},
+  "attributes": {
+    "exampleName": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

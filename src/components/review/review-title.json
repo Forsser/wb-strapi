@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_review_review_titles",
+  "info": {
+    "displayName": "review-title"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
